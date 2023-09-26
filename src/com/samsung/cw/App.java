@@ -2,15 +2,14 @@ package com.samsung.cw;
 
 import java.util.Scanner;
 
-public class Main {
+public class App {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int intValue1 = scanner.nextInt();
+        int x = scanner.nextInt();
+        String res = x >= 5 && x <= 10 ? "YES" : "NO";
 
-
-        System.out.print(intValue1 + ", ");
-        System.out.print(intValue1);
+        System.out.print(res);
     }
 }
